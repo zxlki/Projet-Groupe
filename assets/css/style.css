@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    background-color: rgba(211, 133, 32, 0.904);
+    padding: 50px;
+}
+
+header h1 {
+    text-align: center;
+    color: white;
+}
+
+.pres {
+    margin-top: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 15px;
+    margin-bottom: 50px;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(187, 155, 67, 0.836);
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 35px;
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.recettes {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.RecetteArticle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 15px;
+    padding: 10px;
+    height: 600px;
+    width: 600px;
+}
+
+.RecetteArticle p {
+    text-align: center;
+}
+
+.description {
+    margin-bottom: 35px;
+    font-size: larger;
+}
+
+footer {
+    margin-top: 60px;
+    background-color: rgba(211, 133, 32, 0.904);
+    padding: 50px;
+    text-align: center;
+    position: sticky;
+}
