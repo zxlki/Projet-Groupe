@@ -16,6 +16,31 @@ body {
 header {
     background-color: rgba(211, 133, 32, 0.904);
     padding: 50px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#logo {
+    width: 80px;
+    height: 80px;
+}
+
+#navUl {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    list-style: none;
+    font-size: 14px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 226, 62);
 }
 
 header h1 {
@@ -150,4 +175,38 @@ footer {
     text-align: center;
     font-weight: bold;
     color: white;
+    color: white;
+}
+
+/* **************************  RECETTES MARIUS ********************************* */
+
+.sectionRecetteMarius {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ingredientsEtPreparation {
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.preparation, .ingredients {
+    border: 1px solid #e0e0e0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+ol, ul {
+    padding: 20px;
+}
+li {
+    text-align: justify;
 }
