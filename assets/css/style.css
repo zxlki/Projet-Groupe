@@ -86,10 +86,57 @@ a {
     font-size: larger;
 }
 
+/* PAGE MATHIS */
+
+.RecetteContainer {
+    width: 100%;
+    padding: 30px;
+    background-color: #fff8ee;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.RecetteContainer h2 {
+    font-size: 30px;
+    margin-bottom: 15px;
+    color: #d38520;
+}
+
+.RecetteContainer h2,
+.RecetteContainer p {
+    text-align: center;
+}
+
+.RecetteContainer ul,
+ol {
+    margin-left: 30px;
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+
+.RecetteContainer ol {
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.RecetteContainer ul {
+    list-style-type: disc;
+    list-style-position: inside;
+    padding-left: 0;
+}
+
+.RecetteContainer li {
+    margin-bottom: 10px;
+}
+
+
+/* FOOTER */
+
 footer {
     margin-top: 60px;
     background-color: rgba(211, 133, 32, 0.904);
     padding: 50px;
     text-align: center;
-    position: sticky;
+    font-weight: bold;
+    color: white;
 }
